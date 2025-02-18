@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind UI Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <a href="#" class="text-2xl font-bold text-blue-600">MyBrand</a>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#" class="text-gray-700 hover:text-blue-600">Home</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600">Services</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600">About</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-blue-600">Contact</a></li>
+            </ul>
+            <button class="md:hidden bg-blue-600 text-white px-3 py-2 rounded">☰</button>
+        </div>
+    </nav>
+
+
+    <header class="bg-blue-600 text-white text-center py-20">
+        <h1 class="text-4xl font-bold">Welcome to Our Website</h1>
+        <p class="mt-2 text-lg">We build amazing web experiences using modern design principles.</p>
+        <a href="#" class="mt-4 inline-block bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-200">Get Started</a>
+    </header>
+
+
+    <section class="container mx-auto my-12 px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+            <h2 class="text-2xl font-bold text-blue-600">Web Development</h2>
+            <p class="text-gray-600 mt-2">Create stunning websites with the latest technologies.</p>
+            <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">Learn More →</a>
+        </div>
+
+
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+            <h2 class="text-2xl font-bold text-blue-600">UI/UX Design</h2>
+            <p class="text-gray-600 mt-2">Design user-friendly and attractive interfaces.</p>
+            <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">Learn More →</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
+            <h2 class="text-2xl font-bold text-blue-600">Digital Marketing</h2>
+            <p class="text-gray-600 mt-2">Grow your business with our marketing strategies.</p>
+            <a href="#" class="text-blue-500 hover:underline mt-4 inline-block">Learn More →</a>
+        </div>
+    </section>
+
+
+    <section class="text-center bg-gray-200 py-12">
+        <h2 class="text-3xl font-bold text-gray-700">Ready to Start?</h2>
+        <p class="text-gray-600 mt-2">Join us today and take your business to the next level.</p>
+        <a href="#" class="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700">Get Started</a>
+    </section>
+
+  
+    <footer class="bg-gray-800 text-white text-center py-4 mt-10">
+        <p>&copy; 2024 MyBrand. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
